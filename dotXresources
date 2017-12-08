@@ -10,7 +10,6 @@ XClock.Clock.secondColor: #708f7d
 
 URxvt*.font:   xft:Terminus:size=8
 
-!URxvt*font: xft:Droid Sans Mono:size=8
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1

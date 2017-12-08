@@ -4,14 +4,13 @@ borderwidth 2
 snapdist    20
 gap         0 0 0 0               # Gap when maximizing. Top bottom left right.
 sticky      yes                   # New windows will be in current group.
-moveamount  10                    # Pixels to move when using keyboard.
 
 color activeborder   "#1d1f21"
 color inactiveborder "#1D1F21" 
-color font           "#C5C8C6"        # Menu colours.
+color font           "#C5C8C6"
 color selfont        "#1d1f21"
 color menubg         "#0e0f10"
-color menufg         "#C5C8C6"         # Border and selected items.
+color menufg         "#C5C8C6"
 
 command google-chrome	google-chrome
 command urxvt		urxvt
@@ -22,7 +21,7 @@ unbind-mouse all
 mousebind 4-1   	window_move
 mousebind 4S-1  	window_resize
 mousebind 4-3   	window_resize
-mousebind 4-2		window-raise
+mousebind 4-2		  window-raise
 mousebind 4S-2		window-lower
 mousebind 4C-1		window_hide
 
@@ -31,14 +30,14 @@ mousebind 4C-3		menu_unhide
 
 unbind-key all
 
-bind 4S-r 		restart
-bind 4S-q 		quit
+bind 4S-r 	    	restart
+bind 4S-q 	    	quit
 bind 4S-Return		terminal
-bind 4S-C		delete
+bind 4S-C		      delete
 
 
-bind 4-r		menu-cmd
-bind 4S-P		"dmenu_run -fn 'Terminus:size=8' -nb '#0e0f10' -nf '#C5C8C6' -sb '#C5C8C6' -sf '#1d1f21'"
+bind 4-r		       menu-cmd
+bind 4S-P          "dmenu_run -fn 'Terminus:size=8' -nb '#0e0f10' -nf '#C5C8C6' -sb '#C5C8C6' -sf '#1d1f21'"
 
 
 bind 4-Tab		cycle
